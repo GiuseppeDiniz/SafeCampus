@@ -1,0 +1,3 @@
+{
+  "extends":"@safecampus/tsconfig-commons/base.json",
+}

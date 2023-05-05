@@ -1,0 +1,25 @@
+{
+  "name": "@safecampus/web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@safecampus/utils": "*",
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "@safecampus/tsconfig-commons": "*",
+    "@safecampus/eslint-commons": "*",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^10.0.0"
+  }
+}
