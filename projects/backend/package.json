@@ -1,0 +1,20 @@
+{
+  "name": "@safecampus/backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node index.ts\"",
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
+  "devDependencies": {
+    "@safecampus/eslint-commons": "*",
+    "@safecampus/tsconfig-commons": "*",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  }
+}

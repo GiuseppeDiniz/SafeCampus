@@ -1,0 +1,7 @@
+{
+  "extends":"@safecampus/tsconfig-commons/base.json",
+  "include": [
+    "**/*.ts",
+    "src/**/*.ts"
+  ]
+}

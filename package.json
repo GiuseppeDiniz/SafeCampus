@@ -13,7 +13,10 @@
     "dev:web": "yarn web dev",
     "build:web": "yarn web build",
     "start:web": "yarn web start",
-    "lint:web": "yarn web lint"
+    "lint:web": "yarn web lint",
+
+    "backend": "yarn workspace @safecampus/backend",
+    "dev:backend": "yarn backend dev"
   },
   "dependencies": {
     "@types/node": "18.16.3",
